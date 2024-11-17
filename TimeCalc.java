@@ -5,11 +5,11 @@ public class TimeCalc {
         int minuadds =  Integer.parseInt(args[1]);
         //System.out.println("Hours: "+hours+"\n"+"Minutes: "+minutes+"\n"+"Minutes to add: "+minuadds); //debuger
 
-        int TOTminu = (hours*60)+minutes + minuadds;
-        int TOThours = TOTminu/60;
-        int NewHours = TOThours%24 ;
-        int NewMinutes = TOTminu-(TOThours*60);
-        System.out.println("New hours: "+NewHours+"\n"+"New minutes: "+NewMinutes); //debuger
+        int TotMinu = (hours*60)+minutes + minuadds;
+        int TotHours = TotMinu/60;
+        int NewHours = TotHours%24 ;
+        int NewMinutes = TotMinu-(TotHours*60);
+        //System.out.println("New hours: "+NewHours+"\n"+"New minutes: "+NewMinutes); //debuger
         
         if (NewHours>9) { if (NewMinutes>9) System.out.println(NewHours+":"+NewMinutes); 
 		else System.out.println(NewHours+":0"+NewMinutes);
