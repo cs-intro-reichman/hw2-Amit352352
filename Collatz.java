@@ -27,7 +27,7 @@ public class Collatz {
 		System.out.println(sequence+" ("+count+")");
 	}
 			case "c": //concise mode
-			System.out.println("Every one of the first "+N+" hailstone sequences reached 1");
+			System.out.println("Every one of the first "+N+" hailstone sequences reached 1.");
 
 }
 }
