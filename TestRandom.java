@@ -13,7 +13,7 @@ public  class  TestRandom {
 		   }
 		   
 		   System.out.println("> 0.5: "+sumB+" times");
-		   System.out.println("<= 0.5: "+sumL+" times");
-	    //int a = (int) (N* Math.random()); //reminder for me
+		   System.out.println("<= 0.5: "+sumL+" times") ;
+	    //int a = (int) (N* Math.random()); //reminder for  me
 	}
 }
